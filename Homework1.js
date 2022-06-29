@@ -79,15 +79,16 @@ commonWords(["dog", "cat", "parrot"], ["lizard", "rat", "cat"])
 
 
 function contain(arr1, arr2) {
-    let bool = false
+    
     for (let i = 0; i < arr1.length; i++) {
+        let bool = false
         for (let j = 0; j < arr2.length; j++)
             if (arr1[i] == arr2[j])
                 bool = true
         if (!bool)
             return bool
     }
-    return bool
+    return true
 }
 console.log(contain(["monday", "tuesday"], ["tuesday"]))
 

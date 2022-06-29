@@ -14,19 +14,7 @@ obj['age'] = 20
 
 // 3) Find the odd one out in the provided array. All array elements are equal, except one. Your function must return this odd one out. ->   ["a", "a", "b", "a"] -> // 'b';
 
-function oddOut(arr) {
-    let count = 0;
-    for (let i = 0; i < arr.length - 1; i++) {
-        for (let j = 1; j < arr.length; j++) {
-            if (arr[i] == arr[j])
-                break;
-
-        }
-        con
-    }
-    console.log(elem)
-}
-oddOut(['a', 'b', 'a'])
+//same as 6
 
 // 4) Deduce the smallest and the largest number from the supplied numeric array. Return an array containing these numbers, smallest number first.   [14, 28, 3, 8, 2] -> [2, 28];
 
